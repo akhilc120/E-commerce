@@ -4,7 +4,7 @@
     /* background-color: black; */
 }
 .ml1{
-    background-image: url('../components/img/bg1.jpeg');
+    /* background-image: url('../components/img/bg1.jpeg'); */
     width: 50%;
     background-size: cover;
     height: 300px;
@@ -23,7 +23,7 @@
     text-align: left;
     font: normal normal 900 62px/80px Avenir;
     letter-spacing: 2.48px;
-    color: green;
+    color: black;
     text-transform: capitalize;
     opacity: 1;
 }

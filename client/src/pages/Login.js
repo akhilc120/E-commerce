@@ -51,7 +51,7 @@ const Login = () => {
         {istokenAvailable?<HeaderL />:<Header /> } 
             <div className="midlogin">
                 <div className="ml1">
-                    <h2 className="leftmid1">High quality glasses</h2>
+                    <h2 className="leftmid1">Style yourself</h2>
                     <p>Don't have an account</p>
                     <Link to='/register'><p className="ml12"> Register</p></Link>
                 </div>
