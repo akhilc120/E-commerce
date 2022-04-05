@@ -59,10 +59,10 @@ const Login = () => {
                     <h2>SIGN IN</h2>
                     <form onSubmit={submitHandler}>
                         <label for='name'>Email/Phone Number</label><br />
-                        <input placeholder=" Enter your name" type="text" name='emailORphone' value={user.emailORphone} onChange={changeHandler} required /><br />
+                        <input placeholder="Please Enter your name" type="text" name='emailORphone' value={user.emailORphone} onChange={changeHandler} required /><br />
 
                         <label for='name'>Password</label><br />
-                        <input placeholder=" Enter your password" type={eye ? "text" : "password"} name="password" value={user.password} onChange={changeHandler} required />{eye ? <AiFillEye onClick={changeEye} /> : <AiFillEyeInvisible onClick={changeEye} />} <br />
+                        <input placeholder=" Please Enter your password" type={eye ? "text" : "password"} name="password" value={user.password} onChange={changeHandler} required />{eye ? <AiFillEye onClick={changeEye} /> : <AiFillEyeInvisible onClick={changeEye} />} <br />
                         <p className="al-lo">Don't have an Account ?<Link to='/register'>Register now</Link> </p>
                         <input type={"submit"}  id='btn' value='Login' />
                     </form>
